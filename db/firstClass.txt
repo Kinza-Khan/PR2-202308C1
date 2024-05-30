@@ -1,0 +1,14 @@
+-- CREATE DATABASE pr08c1
+
+/* CREATE TABLE students (
+stdId int PRIMARY KEY AUTO_INCREMENT ,
+stdName varchar(50),
+stdEmail varchar(50) UNIQUE ,
+stdAge int 
+
+)*/
+
+
+-- add columns or drop column
+-- ALTER  TABLE students ADD stdCity varchar(50)
+-- ALTER  TABLE students Drop stdCity 
