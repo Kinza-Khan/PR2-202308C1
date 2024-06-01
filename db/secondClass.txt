@@ -1,0 +1,10 @@
+--  ALTER TABLE students CHANGE stdName stdName INT  
+-- ALTER TABLE students ADD stdTeacher varchar(200) , Add stdGender varchar(100)
+-- ALTER TABLE students CHANGE stdName stdName varchar(10) 
+-- ALTER TABLE students CHANGE stdName stdudentName varchar(10) 
+-- drop TABLE students
+
+-- DML  ins update delete
+ INSERT INTO students (stdudentName , stdEmail , stdAge , stdCity) VALUES
+('ali','ali@gmail.com',21, 'karachi'),('aqsa','aqsa@gmail.com',22,'lahore');
+-- SELECT * from students
