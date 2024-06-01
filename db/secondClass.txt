@@ -5,6 +5,14 @@
 -- drop TABLE students
 
 -- DML  ins update delete
- INSERT INTO students (stdudentName , stdEmail , stdAge , stdCity) VALUES
-('ali','ali@gmail.com',21, 'karachi'),('aqsa','aqsa@gmail.com',22,'lahore');
+/* INSERT INTO students (stdudentName , stdEmail , stdAge , stdCity) VALUES
+('hamza','hamza@gmail.com',21, 'karachi'),('sana','sana@gmail.com',22,'lahore');*/
+
 -- SELECT * from students
+
+-- UPDATE students SET stdudentName = 'behlol' , stdEmail = 'behlol@gmail.com' WHERE stdId = 1
+-- UPDATE students SET stdudentName = 'ali' , stdEmail = 'ali12@gmail.com' WHERE stdudentName = 'behlol' 
+-- AND stdEmail = 'behlol@gmail.com'
+
+-- UPDATE students SET stdudentName = 'behlol' , stdEmail = 'behlol@gmail.com' WHERE stdudentName = 'ali' 
+-- OR stdEmail = 'ali12@gmail.com'
