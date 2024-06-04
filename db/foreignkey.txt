@@ -1,0 +1,18 @@
+/* CREATE TABLE employe(
+id int PRIMARY KEY AUTO_INCREMENT,
+name varchar(200) ,
+salary int,
+city varchar(200),
+age int,
+gender ENUM('male','female')
+)*/
+
+-- SELECT * FROM employe
+-- SELECT * from employe WHERE age = 20 OR age = 22 ;
+-- SELECT * FROM employe WHERE age IN(20,22)
+-- SELECT * FROM employe WHERE age >= 20 AND age<=22
+-- SELECT * FROM employe WHERE age BETWEEN 20 AND 22
+-- SELECT * FROM employe WHERE age NOT IN(20,22)
+-- SELECT * FROM employe WHERE NOT city = 'karachi'
+
+ALTER TABLE employe ADD dept_id int , ADD CONSTRAINT FOREIGN KEY (dept_id) REFERENCES department(id)
