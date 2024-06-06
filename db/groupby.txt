@@ -1,0 +1,8 @@
+-- sum(), min() , max() ,  count() , avg()
+-- SELECT SUM(salary) AS 'sum of salaries' FROM employe
+-- SELECT MIN(salary) AS 'Minimum salary' FROM employe
+-- SELECT MAX(salary) AS 'Maximum salary' FROM employe
+-- SELECT AVG(salary) AS 'AVG salary' FROM employe
+-- SELECT COUNT(id) AS 'Total' FROM employe 
+-- SELECT * FROM employe WHERE salary = (SELECT MIN(salary) FROM employe);
+SELECT COUNT(id) 'Total' , city FROM employe GROUP BY(city) 
