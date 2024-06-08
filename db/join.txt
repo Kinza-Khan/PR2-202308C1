@@ -1,0 +1,26 @@
+SELECT student.id , student.name ,course.name AS 'course name'
+FROM stdbridge 
+INNER JOIN 
+student
+ON
+stdbridge.s_id = student.id
+INNER JOIN 
+course 
+ON
+stdbridge.c_id = course.id
+
+
+
+/*SELECT employe.* , department.*
+FROM employe 
+INNER JOIN
+department 
+ON
+employe.dept_id = department.id */
+
+/*SELECT employe.name AS 'employe name' ,employe.salary , department.name AS 'department'
+FROM employe 
+INNER JOIN
+department 
+ON
+employe.dept_id = department.id*/
