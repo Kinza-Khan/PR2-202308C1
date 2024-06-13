@@ -1,0 +1,17 @@
+/*SELECT employe.name AS empName , employe.salary, department.name AS 'department'
+FROM
+employe
+RIGHT JOIN
+department 
+ON
+employe.dept_id = department.id*/
+
+CREATE VIEW myAllEmp
+AS
+SELECT employe.name AS empName , employe.salary, department.name AS 'department'
+FROM
+employe
+INNER JOIN
+department 
+ON
+employe.dept_id = department.id
